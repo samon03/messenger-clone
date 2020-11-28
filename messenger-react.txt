@@ -1,0 +1,22 @@
+
+npx create-react-app messenger
+
+npm install @material-ui/core
+
+useState() is a variable with no refresh in react
+useEffect() is run/execute a branch of code on a condition in react
+
+db setup:
+npm install firebase
+
+npm i -S react-flip-move
+
+for icon:
+npm i @material-ui/icons
+
+---------------------------------------------
+
+
+
+
+

@@ -45,7 +45,7 @@ function App() {
     <div className="App">
       <img src={LOGO} className="logo"/>
       <h1>Messeger</h1> 
-      <h2>Welcome {username}</h2>
+      <h2>Welcome, {username}!</h2>
       <form className="app__from">
         <FormControl className="app__formControl">
           <Input className="app__input" placeholder='Enter a message ...' value={input} onChange={event => setInput(event.target.value) }/>
@@ -57,12 +57,13 @@ function App() {
         </FormControl>
       </form>
 
-      <FlipMove>
+      <FlipMove className="filp__move">
       {
         messages.map(({id, message}) => (
           <Message key={id} username={username} message={message}/>
         ))
       }
+      <div className="app__div"></div>
       </FlipMove>
        
 
